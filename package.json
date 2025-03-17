@@ -10,14 +10,22 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.16.0",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0",
     "@tresjs/cientos": "^4.0.3",
     "@tresjs/core": "^4.3.3",
-    "@tresjs/nuxt": "^1.3.0",
+    "@tresjs/nuxt": "^3.0.8",
     "@types/animejs": "^3.1.13",
     "animejs": "^3.2.2",
-    "three": "^0.171.0"
+    "nuxt": "^3.16.0",
+    "three": "^0.174.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.85.1",
+    "@types/locomotive-scroll": "^4.1.4",
+    "@types/three": "^0.171.0",
+    "cross-env": "^7.0.3",
+    "locomotive-scroll": "^4.1.4",
+    "nuxt": "^3.16.0"
   }
 }
